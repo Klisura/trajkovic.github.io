@@ -5,12 +5,8 @@ body {
     background-color: bisque;
 } 
 
-h1{
-    text-align: center;
-    color:rgb(12, 11, 11);
-    padding: 2rem;
-   
-}
+
+
 
 @media(min-width:768px){
     .news-input {
@@ -36,6 +32,15 @@ h1{
     margin-right: 2rem;
 }
 
+.card-text   {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+} 
+
+
+
 hr {
     display: block;
     margin-top: 2em;
@@ -52,21 +57,40 @@ hr {
     padding-top: 2rem;
     font-size: larger;
   } 
-  .card-text   {
-    width: 75%;
-    margin: 0 auto;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  } 
+  
   h3 {
  
    text-align: center;
     margin-bottom: 2rem;
   }
   h5 {
+   
     padding: 2rem;
     text-align: center;
   }
   .btn-outline-success {
     --bs-btn-color: #21262b;
---bs-btn-border-color: #c5d2dd;}
+--bs-btn-border-color: #c5d2dd;
+}
+
+.navbar {
+  background:linear-gradient(to right,#3690e9,#d9dfe5) ;
+  box-shadow: 0.5rem 0.5rem rgba(44, 100, 163, 0.508);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  }
+
+  header {
+    
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem
+
+  } 

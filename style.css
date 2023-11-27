@@ -30,6 +30,8 @@ body {
 .card{
     margin-left: 2rem;
     margin-right: 2rem;
+    box-shadow: 0.5rem 0.5rem rgba(204, 211, 219, 0.508);
+    background:linear-gradient(to right,#95bfe9,#0a6cc8) ;
 }
 
 .card-text   {

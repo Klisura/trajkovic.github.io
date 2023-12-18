@@ -10,12 +10,45 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link
      rel="stylesheet" href="style.css">
-    <title>Australian Open</title>
-
+    <title>Contact Us</title>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+        
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        
+        input[type=submit] {
+          background-color: #04AA6D;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        
+        .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        </style>
   </head>
 <body>
     
-  <div id="navigation-sticky">
+  
     <nav class="navbar navbar-expand-lg bg-primary sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Tennis</a>
@@ -49,77 +82,58 @@
                 <li><a class="dropdown-item" href="usopen.html">US Open</a></li>
                 
               </ul>
+              
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
-            </li>
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+              </li>
+          
           
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
+          
         </form>
+        
       </div>
     </div>
   </nav>
     
   <div style="padding:20px; margin-top:35px;"></div>
-  <header>Australian Open</header>
-<p class="lead">The Australian Open is a tennis tournament held annually at Melbourne Park in Melbourne, Victoria, Australia. The tournament is the first of the four Grand Slam tennis events held each year, preceding the French Open, Wimbledon, and the US Open. The Australian Open starts in the middle of January and continues for two weeks coinciding with the Australia Day holiday</p>
-      <section class="p-5">
-            <div class="container-fluid">
-              <div class="row text-center g-4">
-                <div class="col-md">
-                  <div class="card bg-dark text-light">
-                    <div class="card-body text-center">
-                      <div class="h1 mb-3">
-                        <img src="img/djokovicaus.PNG" class="card-img-top" alt="djokovic">
-                      </div>
-                      <h3 class="card-title mb-3">Novak Djokovic</h3>
-                      <p class="card-text lead">
-                        Serbian tennis star Novak Djokovic is the greatest players in the sport’s history, having won 10 Australian Open Grand Slam titles.
-                      </p>
-                      <a href="djokovic.html" class="btn btn-primary">Read More</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md">
-                  <div class="card bg-secondary text-light">
-                    <div class="card-body text-center">
-                      <div class="h1 mb-3">
-                        <img src="img/federer.png" class="card-img-top" alt="nadal">
-                      </div>
-                      <h3 class="card-title mb-3">Roger Federer</h3>
-                      <p class="card-text lead">
-                        Roger Federer is a Swiss former professional tennis player. He win 6 Australian Open Grand Slams.
-                      </p>
-                      <a href="federer.html" class="btn btn-dark">Read More</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md">
-                  <div class="card bg-dark text-light">
-                    <div class="card-body text-center">
-                      <div class="h1 mb-3">
-                        <img src="img/agasi.PNG" class="card-img-top" alt="federer">
-                      </div>
-                      <h3 class="card-title mb-3">Andre Agasi</h3>
-                      <p class="card-text lead">
-                        Andre Agasi is an American former tennis player. He win 4 Australian Open Grand Slams.
-                      </p>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div> <!-- End Navigation Sticky ID Section -->
+  <header>Contact Us</header>
+
+      
+       
         <div id="social-media-sticky">
 <!-- Start Social Jumbotron -->
-  
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Canada</option>
+      <option value="canada">USA</option>
+      <option value="usa">Australia</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<hr>
 <div class="jumbotron sticky-top">
-  <div class="container">
+  <div class="container1">
 <div class="row justify-content-center text-center">
      <div class="d-none d-xl-block col-xl-6 pt-3">
           <h3>Connect with us on social media!</h3>
@@ -137,36 +151,14 @@
 </div>
 </div>
 </div>
-
+</div>
 </div>
 <!-- End Social Jumbotron -->
 
-          <hr>
-          <header>Rod Laver Arena</header>
-      
-          <section class="p-5">
-            <div class="container-fluid">
-              <div class="row text-center g-4">
-                <div class="col-md">
-                  <div class="card bg-dark text-light">
-                    <div class="card-body text-center">
-                      <div class="h1 mb-3">
-                        <img src="img/aostadion.png" class="card-img-top" alt="nadal">
-                      </div>
-                      <h3 class="card-title mb-2">Melbourne, Australia</h3>
-                      <p class="card-text lead">
-                        The Australian Open is one of the most highly anticipated tournaments on the tennis calendar, and with very good reason.All four Grand Slams are beloved, but Melbourne marks the end of a two month tennis off-season, so it does have that little something extra to it. Rod Laver Arena is a multipurpose arena located within Melbourne Park, in Melbourne, Victoria, Australia. The arena is the main venue for the Australian Open, the first Grand Slam tennis tournament of the calendar year.
-                      </p>
-                     
-                    </div>
-                  </div>
-                </div>
-                </div>
-                </div>
-                </section>
+    <hr>  
     <!-- Footer start-->
     <footer class="p-5  bg-dark text-white text-center position-relative">
-      <div class="container">
+      <div class="container1">
         <p class="lead">Copyright &copy; 2023 Milan Trajkovic</p>
 
         <a href="#" class="position-absolute bottom-0 end-0 p-5">
